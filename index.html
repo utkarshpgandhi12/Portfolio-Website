@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utkarsh Gandhi | Site Reliability Engineer</title>
+  <meta name="description" content="Portfolio of Utkarsh Gandhi, Site Reliability Engineer with 8 years of experience in reliability, automation, cloud infrastructure, and incident response." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Utkarsh Gandhi<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Site Reliability Engineer • 8 Years Experience</p>
+          <h1>Building reliable systems that stay fast, secure, and always-on.</h1>
+          <p class="hero-copy">
+            I design and operate resilient cloud platforms with strong observability, automation, and incident response practices.
+            I focus on reducing toil, improving SLOs, and enabling engineering teams to ship confidently.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Let’s Connect</a>
+            <a class="btn btn-secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h3>At a glance</h3>
+          <ul>
+            <li><strong>99.95%</strong> platform uptime across production services</li>
+            <li><strong>45%</strong> reduction in MTTR via runbooks + alert tuning</li>
+            <li><strong>60%</strong> deployment acceleration with CI/CD optimization</li>
+            <li><strong>Cloud:</strong> AWS, Kubernetes, Terraform</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm an SRE with 8 years of experience across fintech and SaaS environments.
+          My work blends software engineering with infrastructure operations to create dependable systems at scale.
+          I enjoy solving reliability bottlenecks, mentoring teams on production excellence, and designing robust incident management workflows.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Core Skills</h2>
+        <div class="chips">
+          <span>Kubernetes</span>
+          <span>AWS (EKS, EC2, RDS, CloudWatch)</span>
+          <span>Terraform</span>
+          <span>Docker</span>
+          <span>Linux</span>
+          <span>Python</span>
+          <span>Bash</span>
+          <span>Go</span>
+          <span>Prometheus + Grafana</span>
+          <span>ELK / OpenSearch</span>
+          <span>CI/CD (GitHub Actions, Jenkins)</span>
+          <span>Incident Response</span>
+          <span>SLO / SLA Management</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience Highlights</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Site Reliability Engineer</h3>
+            <p class="meta">UPS • Oct 2018 – Jul 2022</p>
+            <ul>
+              <li>Led reliability strategy for payment APIs processing 50M+ monthly transactions.</li>
+              <li>Defined service SLOs and error budgets, reducing severe incidents by 35% year-over-year.</li>
+              <li>Built golden-path Terraform modules adopted by 12 engineering squads.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h3>Site Reliability Engineer</h3>
+            <p class="meta">Visa • Aug 2022 – Jan 2025</p>
+            <ul>
+              <li>Migrated critical workloads from VM-based infrastructure to Kubernetes.</li>
+              <li>Implemented proactive observability stack with Prometheus + Grafana dashboards.</li>
+              <li>Improved on-call quality using actionable alerts and auto-remediation scripts.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h3>Site Reliability Engineer</h3>
+            <p class="meta">Morgan Stanley • Mar 2025 – Oct 2025</p>
+            <ul>
+              <li>Automated release and rollback workflows for distributed microservices.</li>
+              <li>Created incident postmortem templates and knowledge-sharing playbooks.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h3>Site Reliability Engineer</h3>
+            <p class="meta">Equifax • Mar 2026 – Present</p>
+            <ul>
+              <li>Driving reliability improvements, observability standards, and incident response excellence.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Reliability Scorecard Platform</h3>
+            <p>Internal dashboard that tracked service health, SLO burn rates, and deployment risk in real time.</p>
+          </article>
+          <article class="card">
+            <h3>Auto-Remediation Bot</h3>
+            <p>Bot-driven mitigation for known failure modes, reducing repetitive pages and nighttime escalation noise.</p>
+          </article>
+          <article class="card">
+            <h3>Disaster Recovery Simulation Program</h3>
+            <p>Quarterly chaos drills with cross-team participation to validate RTO/RPO and improve runbook readiness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Interested in improving platform reliability, resilience, or DevOps maturity? Let’s talk.</p>
+        <div class="contact-links">
+          <a href="mailto:utkarshpgandhi@gmail.com">utkarshpgandhi@gmail.com</a>
+          <a href="https://www.linkedin.com/in/utkarshpgandhi/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/utkarshpgandhi123" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Utkarsh Gandhi • Built for reliability.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
